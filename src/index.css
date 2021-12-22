@@ -105,6 +105,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .shape-container
@@ -135,8 +136,21 @@ body {
   transition: border .25s;
 }
 
-#circle:hover, #square:hover {
-  border: solid 5px #1DC690;
-  cursor: pointer;
+#triangle {
+  -webkit-text-stroke: 5px #e0e0b6;
+  color: transparent;
+  font-size: 250px;
+  margin: auto;
+  transition: -webkit-text-stroke .25s;
+}
 
+#circle:hover, #square:hover {
+  border: solid 5px #1C4670;
+  cursor: pointer;
+}
+
+#triangle:hover {
+  cursor: pointer;
+  -webkit-text-stroke: 5px #1C4670;
+  user-select: none;
 }
