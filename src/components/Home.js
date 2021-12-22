@@ -6,7 +6,7 @@ export const Home = () => {
     return (
         <>
             <div className="main-home">
-                <Header title="compute(shape)" subtitle="<Saigoneer/>"></Header>
+                <Header title="compute(shape)" subtitle="<brandon lee tran/>"></Header>
             </div>
             <div className="home-button-container">
                 <Link to="/shape" id="continue-btn">Continue</Link>
