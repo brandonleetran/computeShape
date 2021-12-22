@@ -1,10 +1,18 @@
 import React from 'react'
+import Triangle from './Triangle'
+import Circle from './Circle'
+import Square from './Square'
 
 export const Shape = (props) => {
+
     return (
-        <>
-        <h1>Testding</h1>
-        </>
+        <div class="shape-home">
+            <div class="shape-container">
+                <Triangle/>
+                <Circle/>
+                <Square/>
+            </div>
+        </div>
     )
 }
 

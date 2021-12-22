@@ -98,3 +98,45 @@ body {
   color: white;
   background-color: #1DC690;
 }
+
+.shape-home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape-container
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  width: 200px;
+  height: 200px;
+  border: solid 5px #e0e0b6;
+  margin: auto;
+  transition: border .25s;
+}
+
+#circle {
+  width: 200px;
+  height: 200px;
+  border: solid 5px #e0e0b6;
+  border-radius: 50%;
+  margin :auto;
+  transition: border .25s;
+}
+
+#circle:hover, #square:hover {
+  border: solid 5px #1DC690;
+  cursor: pointer;
+
+}
